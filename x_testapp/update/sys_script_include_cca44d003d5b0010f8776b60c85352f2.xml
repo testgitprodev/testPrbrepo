@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_testapp.testApp</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>testApp</name>
+        <script><![CDATA[var testApp = Class.create();
+testApp.prototype = {
+    initialize: function() {
+    },
+
+    type: 'testApp'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-26 05:22:37</sys_created_on>
+        <sys_id>cca44d003d5b0010f8776b60c85352f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testApp</sys_name>
+        <sys_package display_value="testApp" source="x_testapp">7214c1003d5b0010f8776b60c85352f9</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="testApp">7214c1003d5b0010f8776b60c85352f9</sys_scope>
+        <sys_update_name>sys_script_include_cca44d003d5b0010f8776b60c85352f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-26 05:22:37</sys_updated_on>
+    </sys_script_include>
+</record_update>
